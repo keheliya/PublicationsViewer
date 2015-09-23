@@ -8,21 +8,36 @@
     <link rel="stylesheet" href="//cdnjs.cloudflare.com/ajax/libs/bootstrap-table/1.8.1/bootstrap-table.min.css">
 </head>
 <body>
-<h1>Publications Viewer</h1>
+<div class="container">
 
-<p>Citation information for peer reviewed scientific and technical articles published in 2013 authored / co-authored by
-    Environment Canada researchers. </p>
+    <div class="page-header">
+        <div class="row">
+            <div class="col-lg-8 col-md-7 col-sm-6">
+                <h1>Publications Viewer</h1>
 
-<table data-toggle="table" data-url="data/publications.json">
-    <thead>
-    <tr>
-        <th data-field="Title">Title</th>
-        <th data-field="Authors">Authors</th>
-        <th data-field="Journal">Journal</th>
-        <th data-field="DOI">Publication</th>
-    </tr>
-    </thead>
-</table>
+                <p>Citation information for peer reviewed scientific and technical articles published in 2013 authored /
+                    co-authored by
+                    Environment Canada researchers. </p>
+
+                <p>Source: <a href="http://open.canada.ca/data/en/dataset/86e328e2-395a-46d0-9939-09287ef5d979">Open
+                    Data Canada 2013</a> Dataset</p>
+            </div>
+        </div>
+    </div>
+
+
+    <table data-toggle="table" data-url="data/publications.json">
+        <thead>
+        <tr>
+            <th data-field="Title">Title</th>
+            <th data-field="Authors">Authors</th>
+            <th data-field="Journal">Journal</th>
+            <th data-field="DOI">Publication</th>
+        </tr>
+        </thead>
+    </table>
+
+</div>
 
 <script src="//ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
 <script src="//maxcdn.bootstrapcdn.com/bootstrap/3.3.1/js/bootstrap.min.js"></script>

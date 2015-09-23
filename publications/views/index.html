@@ -4,11 +4,28 @@
     <meta charset="UTF-8">
     <title>Publications</title>
     <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/bootstrap/3.3.1/css/bootstrap.min.css">
+    <link rel="stylesheet" href="//cdnjs.cloudflare.com/ajax/libs/bootstrap-table/1.8.1/bootstrap-table.min.css">
 </head>
 <body>
 <h1>Publications Viewer</h1>
 
 <p>Citation information for peer reviewed scientific and technical articles published in 2013 authored / co-authored by
     Environment Canada researchers. </p>
+
+<table data-toggle="table" data-url="data/publications.json">
+    <thead>
+    <tr>
+        <th data-field="Title">Title</th>
+        <th data-field="Authors">Authors</th>
+        <th data-field="Journal">Journal</th>
+        <th data-field="DOI">Publication</th>
+    </tr>
+    </thead>
+</table>
+
+<script src="//ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+<script src="//maxcdn.bootstrapcdn.com/bootstrap/3.3.1/js/bootstrap.min.js"></script>
+<script src="//cdnjs.cloudflare.com/ajax/libs/bootstrap-table/1.8.1/bootstrap-table.min.js"></script>
 </body>
 </html>
